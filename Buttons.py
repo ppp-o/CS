@@ -7,7 +7,8 @@ root.geometry("500x400")
 
 button1 = Button(root, text="click me!") #button created using tkinter
 button2 = ttk.Button(root, text="click me pls!") # button created using ttk
-# if you run in now you will see an empty GUI the buttons do not show up, have to use geometry manger to be able to see the button, here we will use .pack to show our buttons
+# if you run in now you will see an empty GUI the buttons do not show up,
+# have to use geometry manger to be able to see the button, here we will use .pack to show our buttons
 
 button1.pack()
-button2.pack() 
+button2.pack()
